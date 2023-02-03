@@ -1,0 +1,34 @@
+<title>Home biblioteca</title>
+<header class= 'main-header-container'>
+    <div class= 'main-header container'>
+        <div>
+            <h1>
+                <a class= 'main-bib' href='/'>
+                    <i class="fa-regular fa-books"></i>
+                        <span class='main-bib'>Biblioteca<span>
+                </a>
+            </h1>
+        </div>
+        
+        <div>
+            <div class= 'main-logo-usuario'>
+                    <a class= 'abacaxi'>
+                        <i class="fa-sharp fa-solid fa-user main-logo-icon"></i>
+                            <span class='main-logo-usuario'>Usuario</span>
+                    </a>
+            </div>
+            <div class='main-logo-usuario'>
+                    <a class= 'abacaxi' href="{% url 'cadastro' %}">
+                        <i class="fa-sharp fa-solid fa-user main-logo-icon"></i>
+                            <span class='main-logo-usuario'>Cadastro</span>
+                    </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class ='search-container'>
+    <div class='container-pesquisa'>
+        <input type='search' class='pesquisa'><button class='search-icon'><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>   
+</div>
