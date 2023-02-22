@@ -6,8 +6,8 @@ def nome_da_função(request):
 def cadastro(request):
 	return render(request,"pages/cadastro.html")
 
-def info(request):
-	return render(request, "pages/info.html")
+def info(request,id):
+	return render(request, "pages/info.html")#context={}
 
 # def login(request):
 # 	return render(request, "pages/login.html")
