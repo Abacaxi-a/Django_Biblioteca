@@ -1,10 +1,10 @@
 {% load static %}
-<title>Home biblioteca</title>
+
 <header class= 'main-header-container'>
     <div class= 'main-header container'>
         <div>
             <h1>
-                <a class= 'main-bib' href='/'>
+                <a class= 'main-bib' href='{% url 'nome da funcao' %}'>
                     <i class="fa-regular fa-books"></i>
                         <span class='main-bib'>Servidores<span>
                 </a>
@@ -19,7 +19,7 @@
                     </a>
             </div>
             <div class='main-logo-usuario'>
-                    <a class= 'abacaxi' href="{% url 'cadastro' %}">
+                    <a class= 'abacaxi' href='{% url 'cadastro' %}'>
                         <i class="fa-sharp fa-solid fa-user main-logo-icon"></i>
                             <span class='main-logo-usuario'>Cadastro</span>
                     </a>

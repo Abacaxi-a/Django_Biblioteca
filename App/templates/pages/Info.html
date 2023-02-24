@@ -1,5 +1,9 @@
-{% include 'partials/head.html' %}
-<body>
-{% include 'partials/header.html' %}
-</body>
-</html>
+{% extends 'partials/servidores.html' %}
+   
+{% block title  %}SERVIDOR{% endblock title %}
+
+{% block content %}
+    <div >
+        {% include 'partials/servidores.html' %}
+    </div>
+{% endblock content %}
